@@ -1,0 +1,30 @@
+<!ELEMENT ponuda_restorana (restoran*)>
+
+<!ELEMENT restoran (id, naziv, telefon, adresa?, mail_adresa?, jelovnik)>
+<!ATTLIST restoran vise (da | ne) #REQUIRED>
+<!ATTLIST restoran klasa (niska | srednja | visoka) #REQURED>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT naziv (#PCDATA)>
+
+<!ELEMENT telefon (broj)>
+<!ELEMENT broj (#PCDATA)>
+<!ATTLIST telefon pozivni (049 | 097 | 098 | 099 | 095 | 092 | 091) #REQUIRED>
+
+<!ELEMENT adresa (ulica, kucnibr, mjesto)>
+<!ELEMENT ulica (#PCDATA)>
+<!ELEMENT kucnibr (#PCDATA)>
+<!ELEMENT mjesto (#PCDATA)>
+<!ATTLIST mjesto postbr CDATA #REQUIRED>
+
+<!ELEMENT mail_adresa (#PCDATA)>
+
+<!ELEMENT jelovnik (hladno_pred, juha, toplo_pred, gl_jelo, prilog, salata, desert)>
+
+<!ELEMENT hladno_pred (#PCDATA)>
+<!ELEMENT juha (#PCDATA)>
+<!ELEMENT toplo_pred (#PCDATA)>
+<!ELEMENT gl_jelo (#PCDATA)>
+<!ELEMENT prilog (#PCDATA)>
+<!ELEMENT salata (#PCDATA)>
+<!ELEMENT desert (#PCDATA)>

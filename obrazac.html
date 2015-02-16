@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Restorani u Zagorju</title>
+	<link rel="stylesheet" type="text/css" href="dizajn.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+	<meta name="keywords" content="Restorani, Zagorje, Ugostiteljsvo, Hrana">
+	<meta name="description" content="Ponuda svih restorana u Zagorju na jednom mjestu">
+	<meta name="author" content="Martin Kurtoić">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+<body class="pozadina">
+	<div class="container">
+		<div class="header">
+			<a href="index.html"><img src="vrhslika.png" class="naslovna" alt="Zagorje logo" width="180" height="180"></a>
+			<h1>Ponuda restorana u Zagorju</h1>
+		</div>
+		<div class="menu">
+			<a class="meni" href="index.html">Početna stranica</a><br>
+			<a href="obrazac.html" class="meni current">Pretraživanje</a><br>
+			<a class="meni" href="podaci.xml">Pregled podataka</a><br/>
+			<a class="meni" href="http://www.fer.unizg.hr/rasip">RASIP</a><br>
+			<a class="meni" href="http://www.fer.unizg.hr">FER</a><br>
+			<a class="meni" href="mailto:martin.kurtoic@fer.hr?Subject=Restorani%20web">e-mail</a>
+		</div>
+		<div class="content">
+			<form name="pretraga" class="tekst" action="pretraga.php" method="get" name="pretraga">
+				<table summary="forma">
+				<tr><td colspan="2"><h2>Pretraga po općim informacijama o restoranu</h2></td></tr>
+				<tr>
+				<td>Naziv:</td>
+				<td><input type="text" name="naziv"></td>
+				</tr>
+				<tr>
+				<td>Samo restorani s više od 100 mjesta:</td> 
+					<td><input type="radio" name="vise" value="da" id="da">Da
+					<input type="radio" name="vise" value="ne" id="ne">Ne</td>
+				</tr>
+								<tr>
+				<td>Klasa restorana:</td>
+				<td><input type="checkbox" name="klasa[]" value="niska" id="niska">Niska
+				<input type="checkbox" name="klasa[]" value="srednja" id="srednja">Srednja
+				<input type="checkbox" name="klasa[]" value="visoka" id="visoka">Visoka</td>
+				</tr>		
+				<tr><td>&nbsp;</td>
+				</tr>
+				<td>Broj telefona:</td>
+					<td><select name="pozivni">
+						<option value=""></option>
+						<option value="049">049</option>
+						<option value="091">091</option>
+						<option value="092">092</option>
+						<option value="095">095</option>
+						<option value="097">097</option>
+						<option value="098">098</option>
+						<option value="099">099</option>
+					</select></td>
+				</tr>
+					<tr><td></td><td><input type="text" name="broj"></td></tr>
+				<tr><td>&nbsp;</td>
+				</tr>
+
+				<tr>
+				<td>Ulica:</td>
+				<td><input type="text" name="ulica"></td>
+				</tr>
+				<tr>
+				<td>Kućni broj:</td>
+				<td><input type="text" name="kucnibr"></td>
+				</tr>
+				<tr>
+				<td>Mjesto:</td>
+				<td><input type="text" name="mjesto"></td>
+				</tr>
+				<tr>
+				<td>Poštanski broj:</td>
+				<td><input type="text" name="postbr"></td>
+				</tr>
+				<tr>
+				<td>e-mail: </td>
+				<td><input type="text" name="email"></td>
+				</tr>
+				<tr><td><h2>Pretraga po jelovnicima</h2></td></tr>
+				<tr>
+				<td>Hladna predjela:</td>
+				<td><input type="text" name="hladno_pred"></td>
+				</tr>
+				<tr>
+				<td>Juhe:</td>
+				<td><input type="text" name="juha"></td>
+				</tr>
+				<tr>
+				<td>Topla predjela:</td>
+				<td><input type="text" name="toplo_pred"></td>
+				</tr>
+				<tr>
+				<td>Glavna jela:</td>
+				<td><input type="text" name="gl_jelo"></td>
+				</tr>
+				<tr>
+				<td>Prilozi:</td>
+				<td><input type="text" name="prilog"></td>
+				</tr>
+				<tr>
+				<td>Salate:</td>
+				<td><input type="text" name="salata"></td>
+				</tr>
+				<tr>
+				<td>Deserti:</td>
+				<td><input type="text" name="desert"></td>
+				</tr>
+				<tr><td>&nbsp;</td></tr>
+				<tr>
+				<td colspan="2" align="center"><input type="submit" value="Traži">&nbsp;
+				<input type="reset" value="Poništi"></td>
+				</tr>
+				</table>
+			</form>
+		</div>
+		<div class="footer">
+			Autor: Martin Kurtoić<br>
+			Fakultet elektrotehnike i računarstva, Zagreb<br>
+			Copyright © 2014
+		</div>
+	</div>
+</body>
+</html>
+	

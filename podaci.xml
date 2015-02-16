@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE ponuda_restorana SYSTEM "gramatika.dtd">
+
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl" ?>
+
+<ponuda_restorana>
+	<restoran vise="da" klasa="visoka">
+		<id>182628458447042</id>
+		<naziv>Ribič</naziv>
+		<telefon pozivni="049">
+			<broj>236035</broj>
+		</telefon>
+	    <telefon pozivni="049">
+			<broj>236135</broj>
+		</telefon>
+		<adresa>
+			<ulica>Zagrebačka</ulica>
+			<kucnibr>11</kucnibr>
+			<mjesto postbr="49214">Veliko Trgovišće</mjesto>
+		</adresa>
+		<email>info@ribic.hr</email>
+		<jelovnik>
+			<hladno_pred>Domaća salama</hladno_pred>
+			<juha>Juha od buče sa svježim koprom</juha>
+			<toplo_pred>Zagorski štrukli kuhani</toplo_pred>
+			<gl_jelo>Zagrebački odrezak</gl_jelo>
+			<prilog>Povrće sa žara</prilog>
+			<salata>Grah salata</salata>
+			<desert>Torta od sira</desert>
+		</jelovnik>
+	</restoran>
+	<restoran vise="da" klasa="visoka">
+		<id>297500696964797</id>
+		<naziv>Vila Zelenjak VENTEK</naziv>
+		<telefon pozivni="049">
+			<broj>550747</broj>
+		</telefon>
+		<adresa>
+			<ulica>Risvica</ulica>
+			<kucnibr>1</kucnibr>
+			<mjesto postbr="49295">Kumrovec</mjesto>
+		</adresa>
+		<email>zeleni@zelenjak.com</email>
+		<jelovnik>
+			<hladno_pred>Sir i vrhnje</hladno_pred>
+			<juha>Bistra govedska juha s domaćim rezancima</juha>
+			<toplo_pred>Salata od bifteka prelivena laganim dresingom</toplo_pred>
+			<gl_jelo>Odrezak zapečen u krušnoj peći</gl_jelo>
+			<prilog>Restani krumpir</prilog>
+			<salata>Šopska salata</salata>
+			<desert>Sladoled od buče</desert>
+		</jelovnik>
+	</restoran>
+	<restoran vise="ne" klasa="srednja">
+		<id>427705300618394</id>
+		<naziv>Rody</naziv>
+		<telefon pozivni="049">
+			<broj>289828</broj>
+		</telefon>
+		<adresa>
+			<ulica>Samci</ulica>
+			<kucnibr>13</kucnibr>
+			<mjesto postbr="49245">Gornja Stubica</mjesto>
+		</adresa>
+		<!--<email>zelenjak@zelenjak.com</email>-->
+		<jelovnik>
+			<hladno_pred>Sir i vrhnje</hladno_pred>
+			<juha>Juha od rajčice sa svježim bosiljkom</juha>
+			<toplo_pred>Sir paniran u sezamu i bučinim sjemenkama sa tartar umakom i đemom od brusnica</toplo_pred>
+			<gl_jelo>Teleći medaljoni sa žara</gl_jelo>
+			<prilog>Police od mladog krumpira</prilog>
+			<salata>Salata od rikole i mini rajčica sa feta sirom</salata>
+			<desert>Savijača od kruški i nektarina</desert>
+		</jelovnik>
+	</restoran>
+	<restoran vise="da" klasa="srednja">
+		<id>228303563892851</id>
+		<naziv>Vuglec Breg</naziv>
+		<telefon pozivni="091">
+			<broj>4604501</broj>
+		</telefon>
+		<adresa>
+			<ulica>Škarićevo</ulica>
+			<kucnibr>151</kucnibr>
+			<mjesto postbr="49000">Krapina</mjesto>
+		</adresa>
+		<email>info@vuglec-breg.hr</email>
+		<email>gazda.drito@vuglec-breg.hr</email>
+		<jelovnik>
+			<hladno_pred>Zagorski pladanj</hladno_pred>
+			<juha>Štruklova juha</juha>
+			<toplo_pred>Domaći njoki sa dimljenom šunkom</toplo_pred>
+			<gl_jelo>Kukuruzna pastrva</gl_jelo>
+			<prilog>Krumpir po želji</prilog>
+			<salata>Grah salata</salata>
+			<desert>Sorbeto od pjenušca "Vuglec Breg"</desert>
+		</jelovnik>
+	</restoran>
+	<restoran vise="da" klasa="visoka">
+		<id>135080466564993</id>
+		<naziv>SE-MI</naziv>
+		<telefon pozivni="049">
+			<broj>237238</broj>
+		</telefon>
+		<adresa>
+			<ulica>Stjepana Radića</ulica>
+			<kucnibr>166</kucnibr>
+			<mjesto postbr="49214">Veliko Trgovišće</mjesto>
+		</adresa>
+		<email>se-mi@kr.htnet.hr</email>
+		<jelovnik>
+			<hladno_pred>Pašteta od guščje jetre</hladno_pred>
+			<juha>Krem juha od gljiva</juha>
+			<toplo_pred>Puževi zapečeni sa sirom i začinskim biljem</toplo_pred>
+			<gl_jelo>Pačja prsa</gl_jelo>
+			<prilog>Mlinci</prilog>
+			<salata>Miješana</salata>
+			<desert>Palačinke sa čokoladom</desert>
+		</jelovnik>
+	</restoran>
+	<restoran vise="da" klasa="srednja">
+		<id>118196088217832</id>		
+		<naziv>Stara škola</naziv>
+		<telefon pozivni="049">
+			<broj>228091</broj>
+		</telefon>
+		<adresa>
+			<ulica>Mirkovec</ulica>
+			<kucnibr>16</kucnibr>
+			<mjesto postbr="49223">Sveti Križ Začretje</mjesto>
+		</adresa>
+		<email>info@stara-skola.hr</email>
+		<jelovnik>
+			<hladno_pred>Meso z banjice</hladno_pred>
+			<juha>Prežgana juha</juha>
+			<toplo_pred>Štrukli druga Tita</toplo_pred>
+			<gl_jelo>Stara škola po bolonjskom sustavu</gl_jelo>
+			<prilog>Ječmena kaša s povrćem</prilog>
+			<salata>Krumpir šalata</salata>
+			<desert>Domaći kolači</desert>
+		</jelovnik>
+	</restoran>
+	<restoran vise="da" klasa="niska">
+		<id>412505825508705</id>
+		<naziv>Vinarija Micak</naziv>
+		<telefon pozivni="049">
+			<broj>469198</broj>
+		</telefon>
+		<adresa>
+			<ulica>Hum Bistrički</ulica>
+			<kucnibr>69a</kucnibr>
+			<mjesto postbr="49246">Marija Bistrica</mjesto>
+		</adresa>
+		<email>mladen.micak@kr.t-com.hr</email>
+		<jelovnik>
+			<hladno_pred>Plata "Broje"</hladno_pred>
+			<juha>Zagorska juha sa vrganjima</juha>
+			<toplo_pred>Topla salata</toplo_pred>
+			<gl_jelo>Plata "Merces"</gl_jelo>
+			<prilog>Krumpir po želji</prilog>
+			<salata>Sezonska salata</salata>
+			<desert>Zagorski štrukli</desert>
+		</jelovnik>
+	</restoran>
+</ponuda_restorana>
+			
+			

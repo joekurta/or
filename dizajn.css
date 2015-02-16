@@ -1,0 +1,163 @@
+﻿body
+.container {
+	width:1100px;
+	/*height:1220px;*/
+	margin:auto;
+	border-left:10px solid white;
+	border-right:10px solid white;
+	background-color:white;
+	}
+.header {
+	background-color:white;
+	height: 200px;
+	border-bottom: 1px solid #663300;
+	}
+.menu {
+	position:relative;
+	/*margin:5px;*/
+	/*border-right: 1px solid #663300;*/
+	background-color:white;
+	/*height:930px;*/
+	float:left;
+	font-family:'Lato', serif;
+	font-size: 20px;
+	color:#663300;
+	padding-top:20px;
+	padding-left:20px;
+	width:195px;
+	display:inline;
+	}
+.content {
+	position:relative;
+	margin:5px;
+    border-left: 1px solid #663300;
+	background-color:white;
+	/*height:930px;*/
+	float:left;
+	display:inline;
+	width:865px;
+	}
+.footer {
+	border-top:1px solid #663300;
+	clear:both;
+	height:60px;
+	color:#663300;
+	font-size:13px;
+	font-weight:bold;
+	font-family:'Lato', serif;
+	text-align:center;
+	padding-top:5px;
+	}
+h1 {
+	position:relative;
+	left:170px;
+	float:left;
+	font-family:'Tangerine', serif;
+	font-size:80px;
+	top:15px;
+	color:#663300;
+	text-shadow: 4px 4px 4px #aaa;
+	}
+h2 {
+	font-family:'Lato', serif;
+	position:relative;
+	left:10px;
+	color:#663300;
+	}
+.naslovna {
+	position:relative;
+	float:left;
+	left:150px;
+	top:10px;
+ }
+ .tekst {
+	font-family:'Lato', serif;
+	position:relative;
+	left:10px;
+	color:#663300;
+	font-size:13px;
+	width:850px;
+   }
+   
+.tekst-lista {
+	font-family:'Lato', serif;
+	position:relative;
+	left:60px;
+	color:#663300;
+	font-size:13px;
+	width:350px;
+	float: left;
+    display: inline
+   }
+ .slika {
+	position:relative;
+	left:10px;
+	display:inline;
+	float:left;
+ }
+ .tekst-tablica {
+	font-family:'Lato', serif;
+	position:relative;
+	left:250px;
+	color:#663300;
+	font-size:13px;
+	border:1px solid #663300;
+}
+.tekst-drugalista{
+	font-family:'Lato', serif;
+	position:relative;
+	left:60px;
+	color:#663300;
+	float:left;
+	font-size:13px;
+	width:350px;
+   }
+.tablica {
+	background-color: #FFD873;
+	}
+.meni:link{
+	font-family:'Lato', serif;
+	color:#663300;
+	font-size:20px;
+	text-decoration:none;
+	}	
+.meni:hover{
+	font-weight:bold;
+	background: #FFD873;
+	}
+
+.meni:visited {
+	color:#663300;
+	}
+.current {
+	font-weight:bold;
+	}
+.pos {
+	position:absolute;
+	left:100px;
+	}
+.pos1 {
+	position:absolute;
+	left:160px;
+	}
+.pos3 {
+	position:absolute;
+	letf:200px;
+	}
+.h2drugi {
+	font-family:'Lato', serif;
+	position:relative;
+	left:10px;
+	color:#663300;
+	}
+.pozadina {
+    background-color:#E6E6FA;
+	}
+.detalji {
+	font-weight:normal;
+	font-size:12px;
+	width:190px;
+	}
+.mapContainer {
+	width: 845px;
+	}
